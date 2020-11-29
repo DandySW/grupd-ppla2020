@@ -57,9 +57,9 @@
 								<span class="nav-text">Order Products</span>
 								</a>
 							</li>
-							<li  class="{{ ($currentAdminSubMenu == 'ordercleaning') ? 'active' : ''}}">
+                            <li  class="{{ ($currentAdminSubMenu == 'ordercleaning') ? 'active' : ''}}" >
 								<a class="sidenav-item-link" href="{{ url('admin/ordercleanings')}}">
-								<span class="nav-text">Cleaning Services</span>
+								<span class="nav-text">Order Cleanings</span>
 								</a>
 							</li>
 							<li class="{{ ($currentAdminSubMenu == 'shipment') ? 'active' : ''}}">
